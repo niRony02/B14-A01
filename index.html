@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,4 +9,314 @@
 <body>
     hey ! 
 </body>
+</html>
+*/ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="DevConf 2026 – The premier developer conference of 2026. Join 4,000+ engineers, founders, and builders for three days of cutting-edge talks, hands-on workshops, and meaningful connections." />
+  <title>DevConf 2026 – Code. Connect. Create.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+
+</head>
+
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="navbar__container">
+
+      <a href="#" class="navbar__logo" id="navbar-logo" aria-label="DevConf 2026 Home">
+        <img src="./assets/logo.png" alt="DevConf 2026 Logo" class="navbar__logo-img" />
+      </a>
+
+      <nav class="navbar__menu" aria-label="Main navigation">
+        <ul class="navbar__links" id="navbar-links">
+          <li><a href="#speakers" class="navbar__link" id="nav-speakers">Speakers</a></li>
+          <li><a href="#schedule" class="navbar__link" id="nav-schedule">Schedule</a></li>
+          <li><a href="#tracks" class="navbar__link" id="nav-tracks">Tracks</a></li>
+          <li><a href="#venue" class="navbar__link" id="nav-venue">Venue</a></li>
+          <li><a href="#blog" class="navbar__link" id="nav-blog">Blog</a></li>
+        </ul>
+      </nav>
+
+      <!-- CTA Button -->
+      <a href="#pricing" class="btn btn--primary navbar__cta" id="navbar-cta">Register Now</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <h1 class="hero__heading" id="hero-heading">
+          Code. <em>Connect</em>. Create
+        </h1>
+        <p class="hero__sub" id="hero-sub">
+          Join 4,000+ engineers, founders, and builders at the premier developer
+          conference of 2026. Three days of cutting-edge talks, hands-on workshops,
+          and meaningful connections.
+        </p>
+        <a href="#pricing" class="btn btn--primary hero__cta" id="hero-cta">Register Now</a>
+      </div>
+    </section>
+
+    <section class="speakers" id="speakers" aria-labelledby="speakers-heading">
+      <div class="section-container">
+        <h2 class="section-title" id="speakers-heading">Meet the Speakers</h2>
+
+        <div class="speakers__grid" id="speakers-grid">
+
+          <article class="speaker-card" id="speaker-andrej">
+            <div class="speaker-card__img-wrap">
+              <img src="./assets/andrej.png" alt="Andrej Karpathy speaking at a conference" class="speaker-card__img"
+                loading="lazy" />
+            </div>
+            <div class="speaker-card__info">
+              <span class="speaker-card__track track--ai" id="track-andrej">AI / ML</span>
+              <h3 class="speaker-card__name" id="name-andrej">Andrej Karpathy</h3>
+              <p class="speaker-card__title" id="title-andrej">Pretraining team, Anthropic</p>
+            </div>
+          </article>
+
+          <article class="speaker-card" id="speaker-demis">
+            <div class="speaker-card__img-wrap">
+              <img src="./assets/demis.png" alt="Demis Hassabis, Co-Founder and CEO of Google DeepMind"
+                class="speaker-card__img" loading="lazy" />
+            </div>
+            <div class="speaker-card__info">
+              <span class="speaker-card__track track--cloud" id="track-demis">Cloud &amp; DevOps</span>
+              <h3 class="speaker-card__name" id="name-demis">Demis Hassabis</h3>
+              <p class="speaker-card__title" id="title-demis">Co-Founder and CEO, Google DeepMind</p>
+            </div>
+          </article>
+
+          <article class="speaker-card" id="speaker-gary">
+            <div class="speaker-card__img-wrap">
+              <img src="./assets/gary.png" alt="Gary Marcus, Staff Engineer at Vercel" class="speaker-card__img"
+                loading="lazy" />
+            </div>
+            <div class="speaker-card__info">
+              <span class="speaker-card__track track--frontend" id="track-gary">Frontend</span>
+              <h3 class="speaker-card__name" id="name-gary">Gary Marcus</h3>
+              <p class="speaker-card__title" id="title-gary">Staff Engineer, Vercel</p>
+            </div>
+          </article>
+
+          <article class="speaker-card" id="speaker-mustafa">
+            <div class="speaker-card__img-wrap">
+              <img src="./assets/mustafa.png" alt="Mustafa Suleyman, CEO of Microsoft AI" class="speaker-card__img"
+                loading="lazy" />
+            </div>
+            <div class="speaker-card__info">
+              <span class="speaker-card__track track--security" id="track-mustafa">Security</span>
+              <h3 class="speaker-card__name" id="name-mustafa">Mustafa Suleyman</h3>
+              <p class="speaker-card__title" id="title-mustafa">CEO of Microsoft AI</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing" aria-labelledby="pricing-heading">
+      <div class="section-container">
+        <h2 class="section-title" id="pricing-heading">Secure Your Spot</h2>
+        <p class="section-subtitle" id="pricing-subtitle">Early-bird pricing ends August 15, 2026.</p>
+
+        <div class="pricing__grid" id="pricing-grid">
+
+          <!-- Standard Plan -->
+          <article class="pricing-card" id="plan-standard">
+            <div class="pricing-card__header">
+              <span class="pricing-card__label" id="label-standard">STANDARD</span>
+              <div class="pricing-card__price">
+                <span class="pricing-card__amount" id="price-standard">$399</span>
+                <span class="pricing-card__period">per person</span>
+              </div>
+            </div>
+            <ul class="pricing-card__features" id="features-standard" aria-label="Standard plan features">
+              <li>Access to all 3 conference days</li>
+              <li>48 curated technical talks</li>
+              <li>2 workshop sessions</li>
+              <li>Networking lunch &amp; coffee breaks</li>
+              <li>Conference swag bag</li>
+              <li>Digital recordings (30 days)</li>
+            </ul>
+            <a href="#" class="btn btn--outline pricing-card__btn" id="btn-standard">Get Standard</a>
+          </article>
+
+          <article class="pricing-card pricing-card--featured" id="plan-pro" aria-label="Featured plan: Pro">
+            <div class="pricing-card__header">
+              <span class="pricing-card__label" id="label-pro">PRO</span>
+              <div class="pricing-card__price">
+                <span class="pricing-card__amount" id="price-pro">$749</span>
+                <span class="pricing-card__period">per person</span>
+              </div>
+            </div>
+            <ul class="pricing-card__features" id="features-pro" aria-label="Pro plan features">
+              <li>Everything in Standard</li>
+              <li>Unlimited workshop access</li>
+              <li>Speaker meet &amp; greet</li>
+              <li>VIP networking dinner</li>
+              <li>Lifetime recording access</li>
+              <li>1-on-1 mentorship (30 min)</li>
+            </ul>
+            <a href="#" class="btn btn--primary pricing-card__btn" id="btn-pro">Get Pro</a>
+          </article>
+
+          <article class="pricing-card" id="plan-team">
+            <div class="pricing-card__header">
+              <span class="pricing-card__label" id="label-team">TEAM</span>
+              <div class="pricing-card__price">
+                <span class="pricing-card__amount" id="price-team">$5,999</span>
+                <span class="pricing-card__period">up to 10 people</span>
+              </div>
+            </div>
+            <ul class="pricing-card__features" id="features-team" aria-label="Team plan features">
+              <li>Everything in Pro (10 seats)</li>
+              <li>Dedicated team lounge access</li>
+              <li>Private workshop booking</li>
+              <li>Company logo on event page</li>
+              <li>Recruitment booth (1 day)</li>
+              <li>Priority customer support</li>
+            </ul>
+            <a href="#" class="btn btn--outline pricing-card__btn" id="btn-team">Contact Us</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="info-strip" aria-labelledby="info-heading">
+      <div class="section-container">
+        <h2 class="section-title" id="info-heading">What to Expect at DevConf</h2>
+        <p class="section-subtitle">Helpful highlights for your conference journey.</p>
+
+        <div class="info-strip__grid">
+          <article class="info-card" id="schedule">
+            <h3>Schedule</h3>
+            <p>Three packed days of keynotes, practical workshops, and calm networking breaks.</p>
+          </article>
+
+          <article class="info-card" id="tracks">
+            <h3>Tracks</h3>
+            <p>Explore AI, cloud, frontend, security, and product-building sessions side by side.</p>
+          </article>
+
+          <article class="info-card" id="venue">
+            <h3>Venue</h3>
+            <p>Meet in a modern city venue with easy transit access and a lively expo floor.</p>
+          </article>
+
+          <article class="info-card" id="blog">
+            <h3>Community Blog</h3>
+            <p>Read short updates from speakers, organizers, and attendees before you arrive.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="collaboration" id="collaboration" aria-labelledby="collaboration-heading">
+      <div class="section-container">
+        <h2 class="section-title" id="collaboration-heading">Collaboration Hub</h2>
+        <p class="section-subtitle">
+          Find teammates, open-source contributors, startup co-founders, or mentors during DevConf 2026.
+        </p>
+
+        <div class="collaboration__grid">
+          <article class="collaboration-card">
+            <h3>Looking for a Co-founder</h3>
+            <p>Meet builders who want to turn bold ideas into a startup with real momentum.</p>
+          </article>
+
+          <article class="collaboration-card">
+            <h3>Open Source Projects</h3>
+            <p>Discover contributors, maintainers, and communities ready to welcome new energy.</p>
+          </article>
+
+          <article class="collaboration-card">
+            <h3>Find a Hackathon Team</h3>
+            <p>Connect with designers, developers, and storytellers for fast-moving team challenges.</p>
+          </article>
+
+          <article class="collaboration-card">
+            <h3>Meet a Mentor</h3>
+            <p>Book a short conversation with experienced founders, engineers, and product leaders.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="footer__container">
+      <div class="footer__top">
+        <a href="#" class="footer__logo" id="footer-logo" aria-label="DevConf 2026 Home">
+          <img src="./assets/footer-logo.png" alt="DevConf 2026 footer logo" class="footer__logo-img" />
+        </a>
+
+        <nav class="footer__social" aria-label="Social media links">
+          <a href="https://twitter.com" class="footer__social-link" id="social-twitter"
+            aria-label="Follow us on X (Twitter)" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+          </a>
+          <a href="https://linkedin.com" class="footer__social-link" id="social-linkedin"
+            aria-label="Connect on LinkedIn" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+          </a>
+          <a href="https://youtube.com" class="footer__social-link" id="social-youtube" aria-label="Watch on YouTube"
+            target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com" class="footer__social-link" id="social-github" aria-label="View on GitHub"
+            target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+          </a>
+        </nav>
+      </div>
+
+      <hr class="footer__divider" />
+
+      <p class="footer__copy" id="footer-copyright">
+        &copy; 2026 DevConf. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    /* ---------- FAQ accordion ---------- */
+    document.querySelectorAll('.faq-item__question').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var isOpen = this.getAttribute('aria-expanded') === 'true';
+        document.querySelectorAll('.faq-item__question').forEach(function (b) {
+          b.setAttribute('aria-expanded', 'false');
+          b.parentElement.classList.remove('faq-item--open');
+        });
+        if (!isOpen) {
+          this.setAttribute('aria-expanded', 'true');
+          this.parentElement.classList.add('faq-item--open');
+        }
+      });
+    });
+
+    window.addEventListener('scroll', function () {
+      var nav = document.getElementById('navbar');
+      if (window.scrollY > 10) {
+        nav.classList.add('navbar--scrolled');
+      } else {
+        nav.classList.remove('navbar--scrolled');
+      }
+    });
+  </script>
+</body>
+
 </html>
