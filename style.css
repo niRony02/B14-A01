@@ -617,10 +617,11 @@ a {
 }
 
 .footer__logo-img {
-  height: 32px;
+  height: 36px;
   width: auto;
-  filter: brightness(0) invert(1);
-  opacity: 0.9;
+  display: block;
+  object-fit: contain;
+  opacity: 1;
 }
 
 /* Social icons */
