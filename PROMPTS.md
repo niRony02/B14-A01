@@ -1,7 +1,16 @@
-# AI Prompt(s) used for the Collaboration Hub section
+Create an HTML and CSS section for a modern developer conference website called DevConf 2026
 
-Prompt 1:
-Create a simple and realistic section for a developer conference website called "Collaboration Hub". The section should feel relevant to DevConf 2026 and should include four cards with ideas like: Looking for a Co-founder, Open Source Projects, Find a Hackathon Team, and Meet a Mentor. Keep the tone professional, modern, and beginner-friendly. Use clean HTML and CSS only, with a layout that fits naturally between the pricing section and the footer.
+The section title should be "Collaboration Hub"
 
-Prompt 2:
-Make the section visually appealing but easy to understand. Use a light card-based layout, short headings, short supporting text, and a friendly conference theme. Keep the content unique and avoid generic placeholder text.
+Include four responsive cards:
+
+1. Looking for a Co-founder
+2. Open Source Projects
+3. Find a Hackathon Team
+4. Meet a Mentor
+
+Use concise, original content.
+
+Match a clean, modern design.
+
+Generate semantic HTML5 and clean CSS only.
