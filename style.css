@@ -40,7 +40,7 @@
   --transition-base: 250ms ease;
 }
 
-/* ---------- 1. Reset & Base ---------- */
+/* 1. Reset & Base  */
 *,
 *::before,
 *::after {
@@ -76,7 +76,7 @@ a {
   color: inherit;
 }
 
-/* ---------- 2. Utilities ---------- */
+/* 2. Utilities */
 .section-container {
   max-width: var(--container-max);
   margin-inline: auto;
@@ -98,7 +98,7 @@ a {
   margin-top: 8px;
 }
 
-/* ---------- 3. Buttons ---------- */
+/* 3. Buttons */
 .btn {
   display: inline-block;
   padding: 0.65rem 1.5rem;
@@ -146,7 +146,7 @@ a {
   outline-offset: 3px;
 }
 
-/* ---------- 4. Navbar ---------- */
+/*  4. Navbar */
 .navbar {
   position: sticky;
   top: 0;
@@ -219,7 +219,7 @@ a {
   box-shadow: 0 6px 18px rgba(37, 99, 235, 0.18);
 }
 
-/* ---------- 5. Hero / Banner ---------- */
+/* Hero / Banner */
 .hero {
   position: relative;
   min-height: 580px;
@@ -276,7 +276,7 @@ a {
   font-size: 1rem;
 }
 
-/* ---------- 6. Speakers Section ---------- */
+/* 6. Speakers Section */
 .speakers {
   padding-block: var(--section-gap);
   background: var(--clr-surface);
@@ -372,7 +372,7 @@ a {
   color: var(--clr-text-muted);
 }
 
-/* ---------- 7. Pricing Section ---------- */
+/* 7. Pricing Section */
 .pricing {
   padding-block: var(--section-gap);
   background: var(--clr-surface-alt);
@@ -410,7 +410,7 @@ a {
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.1);
 }
 
-/* Featured (Pro) card */
+/* (Pro) card */
 .pricing-card--featured {
   background: var(--clr-dark-card);
   border-color: var(--clr-dark-card);
@@ -515,7 +515,7 @@ a {
   border-color: rgba(255, 255, 255, 0.35);
 }
 
-/* ---------- 8. Info & Collaboration Sections ---------- */
+/*  8. Info & Collaboration Sections */
 .info-strip {
   padding-block: var(--section-gap);
   background: var(--clr-surface-alt);
@@ -582,7 +582,7 @@ a {
   background: linear-gradient(135deg, #f8fbff 0%, #f3f6ff 100%);
 }
 
-/* ---------- 9. Footer ---------- */
+/*  9. Footer */
 .footer {
   background: #f7f4eb;
   color: #4b5563;
@@ -652,7 +652,7 @@ a {
   text-align: center;
 }
 
-/* ---------- 10. Responsive / Media Queries ---------- */
+/* 10. Responsive Queries */
 @media (max-width: 900px) {
   :root {
     --section-gap: 72px;
