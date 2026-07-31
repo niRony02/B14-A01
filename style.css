@@ -1,9 +1,4 @@
-/* ============================================================
-   DevConf 2026 – style.css
-   Tech stack: HTML5 + CSS3 only (no frameworks, no JS libraries)
-   ============================================================ */
 
-/* ---------- 0. CSS Custom Properties (Design Tokens) ---------- */
 :root {
   /* Colors */
   --clr-primary: #2563eb;
@@ -597,8 +592,8 @@ a {
 
 /* ---------- 9. Footer ---------- */
 .footer {
-  background: var(--clr-dark);
-  color: rgba(255, 255, 255, 0.7);
+  background: #f7f4eb;
+  color: #4b5563;
 }
 
 .footer__container {
@@ -622,7 +617,7 @@ a {
   display: block;
   object-fit: contain;
   opacity: 1;
-  filter: brightness(0) saturate(100%) invert(93%) sepia(4%) saturate(100%) hue-rotate(180deg) brightness(118%) contrast(90%);
+  filter: none;
 }
 
 /* Social icons */
@@ -639,8 +634,8 @@ a {
   width: 38px;
   height: 38px;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(75, 85, 99, 0.2);
+  color: #4b5563;
   font-size: 0.9rem;
   transition: background var(--transition-fast), color var(--transition-fast),
     border-color var(--transition-fast), transform var(--transition-fast);
@@ -655,13 +650,13 @@ a {
 
 .footer__divider {
   border: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(75, 85, 99, 0.15);
   margin-bottom: 20px;
 }
 
 .footer__copy {
   font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.4);
+  color: #6b7280;
   text-align: center;
 }
 
