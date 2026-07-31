@@ -622,6 +622,7 @@ a {
   display: block;
   object-fit: contain;
   opacity: 1;
+  filter: brightness(0) saturate(100%) invert(78%) sepia(15%) saturate(800%) hue-rotate(180deg) brightness(95%) contrast(95%);
 }
 
 /* Social icons */
